@@ -1,0 +1,13 @@
+[project]
+name = "pattern-report"
+version = "0.1.0"
+description = "Finds what matters - fast. Searches and summarizes recurring text in PDFs."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.0",
+    "pymupdf>=1.26.1",
+    "toml>=0.10.2",
+    "tqdm>=4.67.1",
+]

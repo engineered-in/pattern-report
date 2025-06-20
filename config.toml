@@ -1,0 +1,35 @@
+# Configuration file for the document processing application
+#
+# This file contains settings for the document processing, including patterns to match,
+# document paths, and export settings.
+#
+# Any line starting with '#' is a comment and will be ignored by the application.
+# Comments are used to explain the purpose of each setting.
+#
+# Patterns to match specific text in the documents
+#
+# Each pattern is a regular expression that will be used to find matches in the text.
+# You can add or modify patterns as needed.
+# Patterns are defined as a list of strings enclosed within ''' (triple single quotes)
+#    and separated by , (comma).
+# You can learn more about regular expressions at https://regex101.com/
+#    Disclaimer: the above link is external and not affiliated with this application.
+#    It is provided for educational purposes only.
+PATTERNS=[
+    '''HOLD \d+''', # Hold numbers
+#   '''\b(?=\w{6,30}\b)(?=\w*[A-Za-z])(?=\w*[0-9])[A-Za-z0-9"\-_]{6,30}\b''',  # Document numbers and Tag numbers - Alphanumeric with 6 to 30 characters
+]
+#
+# PDF document path
+#
+# This is the path from where the PDF documents read by this program.
+DOCUMENT_PATH="Documents"
+#
+# Export settings
+#
+# Export all text from the document
+# Set to false if you only want to export text that matches the patterns.
+# If you set this to true, it will export an extra worksheet with all text blocks.
+# By default, this is set to false.
+EXPORT_ALL_TEXT=false
+#
