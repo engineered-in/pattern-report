@@ -67,4 +67,4 @@ It **reports** each match with its **location** and gives you a clean **page-by-
 
 3. Double click on the `Downloads\pattern-report\launch.bat` file
 
-4. You will find the timestamped report file in the `Downloads\pattern-report\Reports` folder
+> It automatically opens the **timestamped report spreadsheet** from `Downloads\pattern-report\Reports` folder

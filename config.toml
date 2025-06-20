@@ -17,7 +17,7 @@
 #    It is provided for educational purposes only.
 PATTERNS=[
     '''HOLD \d+''', # Hold numbers
-#   '''\b(?=\w{6,30}\b)(?=\w*[A-Za-z])(?=\w*[0-9])[A-Za-z0-9"\-_]{6,30}\b''',  # Document numbers and Tag numbers - Alphanumeric with 6 to 30 characters
+    '''\b(?=\w{6,30}\b)(?=\w*[A-Za-z])(?=\w*[0-9])[A-Za-z0-9"\-_]{6,30}\b''',  # Document numbers and Tag numbers - Alphanumeric with 6 to 30 characters
 ]
 #
 # PDF document path
